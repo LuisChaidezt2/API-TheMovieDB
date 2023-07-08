@@ -44,38 +44,6 @@ $movies = getMovies($url);
 displayMovies($movies);
 
 
-// echo $url;
-
-
-
-
-
-// $API_KEY = 'api_key=9f75236d530fccfbb75b9699b8e75ef6';
-// $url = '';
-
-// if (isset($_POST['movie_title']) && !empty($_POST['movie_title'])) {
-//     $palabra = str_replace(' ', '%20', $_POST['movie_title']); // Reemplazar espacios por "%20"
-//     $url = "https://api.themoviedb.org/3/search/movie?$API_KEY&query=$palabra";
-// } else {
-//     $url = "https://api.themoviedb.org/3/movie/popular?$API_KEY";
-// }
-
-// $archivo = file_get_contents($url);
-// $data = json_decode($archivo);
-
-// echo '<div class="movie">';
-// foreach ($data->results as $movie) {
-//     // Verificar si la película tiene imagen
-//     if (!empty($movie->poster_path)) {
-//         echo '<div class="movie-item">';
-//         echo '<img class="poster"  src="https://image.tmdb.org/t/p/w185'.$movie->poster_path.' " >';
-//         echo '<div class="overview">'.$movie->overview.'</div>';
-//         echo '<h3>'.$movie->title.'</h3>';
-//         echo '<div class= avg>'.$movie->vote_average.'</div>';
-//         echo '</div>';
-//     }
-// }
-// echo '</div>';
 ?>
 
 </body>

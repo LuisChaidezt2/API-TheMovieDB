@@ -1,9 +1,4 @@
 <?php
-// if(isset($_POST['movie_title'])){
-//     $palabra= str_replace(' ', '%20', $_POST['movie_title']);
-// }else{
-//     $palabra='Batman';
-// }
 
 
 // Con esta funcion obtengo el URL, si no se ha escrito nada en el search, lo que se mostrara, seran las pelis mas populares.

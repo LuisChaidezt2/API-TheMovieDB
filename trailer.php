@@ -44,14 +44,13 @@ foreach ($movie->genres as $genre) {
 echo '</p>';
 echo '</center>';
 
-	// echo 'ID de película: '.$_GET['id'].'<br>';
+
 
 	// Verifico si proporciono un ID de peli
 	if (!isset($_GET['id'])) {
 	    die('Se requiere un ID de película.');
 	}
-    //Hago el ID en variable
-	// $id = $_GET['id'];
+
 
 	// iteracion del api para los vidiooooos
 	$archivo = file_get_contents("https://api.themoviedb.org/3/movie/$id/videos?api_key=9f75236d530fccfbb75b9699b8e75ef6&language=en-US");
